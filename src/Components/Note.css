@@ -6,6 +6,8 @@
   flex-direction: column;
   background-color: blueviolet;
   border-radius: 30px;
+  box-shadow: 0 0px 10px darkgray;
+  margin: 5px;
 }
 
 .note-text {
