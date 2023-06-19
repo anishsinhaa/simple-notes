@@ -37,12 +37,6 @@ function Note(props) {
     return `${hrs}:${min} ${day} ${month} ${year}`;
   };
 
-  //Debounce Function to reduce rendering on typing every single letter
-  function debounce(func) {
-    clearTimeout(timeout);
-    timeout = setTimeout(func, timer);
-  }
-
   return (
     <div className="note" style={{ backgroundColor: props.note.color }}>
       <textarea
