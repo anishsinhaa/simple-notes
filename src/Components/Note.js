@@ -2,8 +2,6 @@ import React from "react";
 import trash from "../Images/trash.png";
 import "./Note.css";
 
-let timer = 500,
-  timeout;
 function Note(props) {
   //Date Formatting
   const formatDate = (value) => {
